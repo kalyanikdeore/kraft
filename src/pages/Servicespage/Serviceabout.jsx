@@ -96,60 +96,127 @@ const ServicesPage = () => {
 
 
       {/* Services Section */}
-      <section id="services" className="py-20 md:py-24 bg-[#f4f8fd]">
-        <div className="max-w-7xl mx-auto px-6">
+     {/* Services Section */}
+<section id="services" className="relative overflow-hidden bg-[#f4f8fd] py-20 md:py-24">
+  <div className="max-w-7xl mx-auto px-6">
 
-          <div className="text-center max-w-2xl mx-auto mb-16">
-            <span className="inline-block text-[#397fc4] bg-[#63a8f2]/15 px-5 py-2 rounded-full text-sm font-bold mb-4">
-              OUR EXPERTISE
-            </span>
+    {/* Section Heading */}
+    <div className="text-center max-w-2xl mx-auto mb-16">
+      <span className="inline-block text-[#397fc4] bg-[#63a8f2]/15 px-5 py-2 rounded-full text-sm font-bold mb-4">
+        OUR EXPERTISE
+      </span>
 
-            <h2 className="text-3xl md:text-4xl font-extrabold text-[#132948] mb-5">
-              What We Offer
-            </h2>
+      <h2 className="text-3xl md:text-4xl font-extrabold text-[#132948] mb-5">
+        What We Offer
+      </h2>
 
-            <p className="text-gray-600 text-lg leading-7">
-              Smart digital solutions designed to bring your ideas to life
-              and help you move forward.
-            </p>
-          </div>
+      <p className="text-gray-600 text-base md:text-lg leading-7">
+        Explore our web development, business software solutions,
+        and industry-focused internship programs.
+      </p>
+    </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((item, index) => (
-              <div
-                key={index}
-                className="group relative bg-white p-8 md:p-9 rounded-3xl border border-[#dce9f8] shadow-sm hover:shadow-2xl hover:shadow-[#132948]/10 hover:-translate-y-2 hover:border-[#63a8f2] transition-all duration-500 overflow-hidden"
-              >
-                <div className="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-[#132948] to-[#63a8f2] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
+    {/* Services Cards */}
+    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
-                <div className="w-16 h-16 bg-gradient-to-br from-[#132948] to-[#397fc4] rounded-2xl flex items-center justify-center text-white text-3xl mb-7 shadow-lg shadow-[#132948]/20 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
-                  {item.icon}
-                </div>
+      {/* Website Development */}
+      <div className="group relative bg-white p-8 md:p-9 rounded-3xl border border-[#dce9f8] shadow-sm hover:shadow-xl hover:shadow-[#132948]/10 hover:-translate-y-2 hover:border-[#63a8f2] transition-all duration-300 overflow-hidden">
 
-                <span className="text-sm font-bold text-[#63a8f2]">
-                  SERVICE 0{index + 1}
-                </span>
+        <div className="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-[#132948] to-[#63a8f2] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
 
-                <h3 className="text-xl md:text-2xl font-bold text-[#132948] mt-3 mb-4 group-hover:text-[#397fc4] transition-colors">
-                  {item.title}
-                </h3>
-
-                <p className="text-gray-600 leading-7 min-h-[84px]">
-                  {item.desc}
-                </p>
-
-                <a
-                  href="#contact"
-                  className="mt-7 inline-flex items-center gap-2 text-[#132948] font-bold hover:text-[#397fc4] transition-colors"
-                >
-                  Learn More
-                  <FiArrowRight className="group-hover:translate-x-1 transition-transform" />
-                </a>
-              </div>
-            ))}
-          </div>
+        <div className="w-16 h-16 bg-gradient-to-br from-[#132948] to-[#397fc4] rounded-2xl flex items-center justify-center text-white text-3xl mb-7 shadow-lg shadow-[#132948]/20 group-hover:scale-110 transition-transform duration-300">
+          <i className="fas fa-globe"></i>
         </div>
-      </section>
+
+        <span className="text-xs font-bold uppercase tracking-widest text-[#63a8f2]">
+          Web Development
+        </span>
+
+        <h3 className="text-xl md:text-2xl font-bold text-[#132948] mt-3 mb-4 group-hover:text-[#397fc4] transition-colors">
+          Website Development
+        </h3>
+
+        <p className="text-gray-600 leading-7 min-h-[84px]">
+          We create modern, responsive, and user-friendly websites
+          tailored to your business needs and brand identity.
+        </p>
+
+        <div className="flex flex-wrap gap-2 mt-6">
+          {["Business Websites", "Responsive Design", "Custom Websites"].map((item) => (
+            <span key={item} className="text-xs font-semibold text-[#132948] bg-[#f0f6fd] border border-[#dce9f8] px-3 py-2 rounded-lg">
+              {item}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      {/* CRM Software */}
+      <div className="group relative bg-white p-8 md:p-9 rounded-3xl border border-[#dce9f8] shadow-sm hover:shadow-xl hover:shadow-[#132948]/10 hover:-translate-y-2 hover:border-[#63a8f2] transition-all duration-300 overflow-hidden">
+
+        <div className="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-[#132948] to-[#63a8f2] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
+
+        <div className="w-16 h-16 bg-gradient-to-br from-[#132948] to-[#397fc4] rounded-2xl flex items-center justify-center text-white text-3xl mb-7 shadow-lg shadow-[#132948]/20 group-hover:scale-110 transition-transform duration-300">
+          <i className="fas fa-laptop-code"></i>
+        </div>
+
+        <span className="text-xs font-bold uppercase tracking-widest text-[#63a8f2]">
+        Software Development
+        </span>
+
+        <h3 className="text-xl md:text-2xl font-bold text-[#132948] mt-3 mb-4 group-hover:text-[#397fc4] transition-colors">
+        Software Development
+        </h3>
+
+        <p className="text-gray-600 leading-7 min-h-[84px]">
+          Simplify customer management, organize business data,
+          track interactions, and improve your team's productivity
+          with customized CRM software.
+        </p>
+
+        <div className="flex flex-wrap gap-2 mt-6">
+          {["Customer Management", "Lead Tracking", "Business Automation"].map((item) => (
+            <span key={item} className="text-xs font-semibold text-[#132948] bg-[#f0f6fd] border border-[#dce9f8] px-3 py-2 rounded-lg">
+              {item}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      {/* Internship */}
+      <div className="group relative bg-white p-8 md:p-9 rounded-3xl border border-[#dce9f8] shadow-sm hover:shadow-xl hover:shadow-[#132948]/10 hover:-translate-y-2 hover:border-[#63a8f2] transition-all duration-300 overflow-hidden">
+
+        <div className="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-[#132948] to-[#63a8f2] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
+
+        <div className="w-16 h-16 bg-gradient-to-br from-[#132948] to-[#397fc4] rounded-2xl flex items-center justify-center text-white text-3xl mb-7 shadow-lg shadow-[#132948]/20 group-hover:scale-110 transition-transform duration-300">
+          <i className="fas fa-graduation-cap"></i>
+        </div>
+
+        <span className="text-xs font-bold uppercase tracking-widest text-[#63a8f2]">
+          Learn & Grow
+        </span>
+
+        <h3 className="text-xl md:text-2xl font-bold text-[#132948] mt-3 mb-4 group-hover:text-[#397fc4] transition-colors">
+          Internship Programs
+        </h3>
+
+        <p className="text-gray-600 leading-7 min-h-[84px]">
+          Build practical coding skills through structured training,
+          live sessions, hands-on projects, and industry-oriented
+          development experience.
+        </p>
+
+        <div className="flex flex-wrap gap-2 mt-6">
+          {["Java", "Hibernate", "PHP", "Laravel", "CodeIgniter"].map((item) => (
+            <span key={item} className="text-xs font-semibold text-[#132948] bg-[#f0f6fd] border border-[#dce9f8] px-3 py-2 rounded-lg">
+              {item}
+            </span>
+          ))}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       {/* CTA Section */}
 

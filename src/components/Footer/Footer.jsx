@@ -45,8 +45,8 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <Link to="/" className="inline-block">
-              <h2 className="text-3xl font-extrabold tracking-tight">
-                <span className="text-[#63a8f2]">Dkraft</span>
+              <h2 className="text-2xl font-extrabold tracking-tight">
+                <span className="text-[#63a8f2]">Dkraft Technologies</span>
               </h2>
             </Link>
 

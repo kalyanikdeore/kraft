@@ -24,7 +24,7 @@ export default function About() {
             {/* Left Big Image */}
             <div className="row-span-2">
               <img
-                src="https://blog.planview.com/wp-content/uploads/2020/01/Top-6-Software-Development-Methodologies.jpg"
+                src="https://static.vecteezy.com/system/resources/previews/020/069/734/large_2x/software-development-concepts-and-programming-for-various-devices-software-engineer-computer-programmer-coding-process-chart-testing-platform-data-analytics-online-safety-photo.jpg"
                 alt=""
                 className="w-full h-[420px] object-cover rounded-3xl shadow-xl"
               />
@@ -33,7 +33,7 @@ export default function About() {
             {/* Top Right */}
             <div>
               <img
-                src="https://blog.planview.com/wp-content/uploads/2020/01/Top-6-Software-Development-Methodologies.jpg"
+                src="https://burst.shopifycdn.com/photos/coding-on-laptop.jpg?width=1200&format=pjpg&exif=0&iptc=0"
                 alt=""
                 className="w-full h-[200px] object-cover rounded-3xl shadow-xl"
               />
@@ -42,7 +42,7 @@ export default function About() {
             {/* Bottom Right */}
             <div>
               <img
-                src="https://blog.planview.com/wp-content/uploads/2020/01/Top-6-Software-Development-Methodologies.jpg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWT4Tj7evamjHnSArQYbI7N72WNqOEdPHC4bPAtVehUpwDl8QTiS9b1I0&s=10"
                 alt=""
                 className="w-full h-[200px] object-cover rounded-3xl shadow-xl"
               />

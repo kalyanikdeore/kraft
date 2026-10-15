@@ -114,7 +114,7 @@ const AboutPage = () => {
               <FiCode className="text-5xl text-orange-500 mb-5"/>
 
               <h3 className="text-xl font-bold mb-3">
-                Live Projects
+                Live ProjectsLive Sessions
               </h3>
 
               <p className="text-gray-600">

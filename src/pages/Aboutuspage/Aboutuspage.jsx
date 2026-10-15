@@ -207,7 +207,7 @@ const AboutPage = () => {
             <div className="relative group lg:order-2">
               <div className="absolute -inset-2 rounded-3xl bg-gradient-to-r from-[#63a8f2] to-[#132948] opacity-20 blur-sm" />
               <img
-                src="https://cdn.create.vista.com/api/media/small/320823134/stock-photo-conceptual-hand-writing-showing-our-mission-business-photo-showcasing-a-written-declaration-of-an-organization"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTglhGy4MXx9PeaxsOJjzUt4J777cXRogiZo_wM7OelLab8Nbi5DDM7p4iF&s=10"
                 alt="Mission"
                 className="relative rounded-2xl w-full h-[280px] md:h-[340px] object-cover shadow-xl transition duration-500 group-hover:scale-[1.01]"
               />
@@ -243,11 +243,11 @@ const AboutPage = () => {
                 <FiCode />
               </div>
               <h3 className="text-lg font-bold text-[#132948] mb-3">
-                Live Projects
+             Live Sessions
               </h3>
-              <p className="text-gray-600 text-sm leading-7">
+              {/* <p className="text-gray-600 text-sm leading-7">
                 Gain real industry experience with practical development.
-              </p>
+              </p> */}
             </div>
 
             <div className="group rounded-2xl bg-[#f3f8ff] border border-[#dceaff] p-7 shadow-sm hover:shadow-xl hover:-translate-y-2 hover:border-[#63a8f2] transition-all duration-300">
@@ -255,11 +255,11 @@ const AboutPage = () => {
                 <FiAward />
               </div>
               <h3 className="text-lg font-bold text-[#132948] mb-3">
-                Certification
+               Internship Offer Letter
               </h3>
-              <p className="text-gray-600 text-sm leading-7">
+              {/* <p className="text-gray-600 text-sm leading-7">
                 Receive internship completion certificates.
-              </p>
+              </p> */}
             </div>
 
             <div className="group rounded-2xl bg-[#f3f8ff] border border-[#dceaff] p-7 shadow-sm hover:shadow-xl hover:-translate-y-2 hover:border-[#63a8f2] transition-all duration-300">
@@ -267,11 +267,11 @@ const AboutPage = () => {
                 <FiAward />
               </div>
               <h3 className="text-lg font-bold text-[#132948] mb-3">
-                Certification
+              Internship Completion Letter
               </h3>
-              <p className="text-gray-600 text-sm leading-7">
+              {/* <p className="text-gray-600 text-sm leading-7">
                 Receive internship completion certificates.
-              </p>
+              </p> */}
             </div>
 
             <div className="group rounded-2xl bg-[#f3f8ff] border border-[#dceaff] p-7 shadow-sm hover:shadow-xl hover:-translate-y-2 hover:border-[#63a8f2] transition-all duration-300">
@@ -279,11 +279,11 @@ const AboutPage = () => {
                 <FiAward />
               </div>
               <h3 className="text-lg font-bold text-[#132948] mb-3">
-                Certification
+              Resume & Portfolio Building
               </h3>
-              <p className="text-gray-600 text-sm leading-7">
+              {/* <p className="text-gray-600 text-sm leading-7">
                 Receive internship completion certificates.
-              </p>
+              </p> */}
             </div>
 
           </div>

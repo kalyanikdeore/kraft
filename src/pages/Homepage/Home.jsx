@@ -16,7 +16,9 @@ const   Hero = () => {
       title: "Smart Solutions for a Digital World",
       subtitle:
         "We develop custom software, web applications, and scalable business solutions to streamline operations, improve efficiency, and accelerate business growth using modern technologies.",
-      secondaryBtn: "Get Started",
+           primaryBtn: "Explore Our Services",
+
+        secondaryBtn: "Get Started",
     },
    
     {
