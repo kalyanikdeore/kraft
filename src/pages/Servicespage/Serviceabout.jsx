@@ -168,13 +168,15 @@ const ServicesPage = () => {
         </h3>
 
         <p className="text-gray-600 leading-7 min-h-[84px]">
-          Simplify customer management, organize business data,
-          track interactions, and improve your team's productivity
-          with customized CRM software.
+              We develop custom software, web applications, and scalable
+    business solutions to streamline operations, improve efficiency,
+    and accelerate business growth using modern technologies.
         </p>
 
         <div className="flex flex-wrap gap-2 mt-6">
-          {["Customer Management", "Lead Tracking", "Business Automation"].map((item) => (
+          {[ "Custom Software",
+      "Web Applications",
+      "Scalable Solutions",].map((item) => (
             <span key={item} className="text-xs font-semibold text-[#132948] bg-[#f0f6fd] border border-[#dce9f8] px-3 py-2 rounded-lg">
               {item}
             </span>
