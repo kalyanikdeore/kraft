@@ -168,7 +168,7 @@ export default function Contact() {
 
                     <p className="mt-1 break-all font-semibold transition group-hover:text-[#63a8f2]">
 
-                   dkrafttechnologies\@gmail.com
+                   dkrafttechnologies@gmail.com
 
                     </p>
 
