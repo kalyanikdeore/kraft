@@ -44,15 +44,14 @@ const ServicesPage = () => {
     </h1>
 
     <p className="text-gray-300 text-sm md:text-base max-w-2xl leading-7">
-     Learn through live training, practical projects, and industry-focused internships to become job-ready.
-    </p>
+We provide industry-oriented internship programs, live training sessions, and hands-on project experience to help students develop practical skills, build strong portfolios, and prepare for successful careers in the IT industry.    </p>
 
-    <a
+    {/* <a
       href="#services"
       className="mt-6 inline-block bg-[#63a8f2] text-[#132948] px-5 py-3 rounded-md font-semibold text-sm hover:bg-white transition-colors duration-300"
     >
       Explore Services →
-    </a>
+    </a> */}
 
   </div>
 </section>
@@ -110,8 +109,7 @@ const ServicesPage = () => {
       </h2>
 
       <p className="text-gray-600 text-base md:text-lg leading-7">
-        Explore our web development, business software solutions,
-        and industry-focused internship programs.
+  Explore our web development, software solutions, and internship programs designed to build practical skills and prepare students for successful IT careers.
       </p>
     </div>
 
@@ -246,9 +244,7 @@ const ServicesPage = () => {
         </h2>
 
         <p className="mt-5 max-w-2xl mx-auto text-blue-100 text-sm md:text-base leading-7">
-          We create modern websites, custom software, 
-          and internship programs that help businesses and students
-          achieve success.
+       We provide live training, hands-on projects, and industry-focused internships to help students build skills and become job-ready developers.
         </p>
 
         <div className="mt-8 flex flex-wrap justify-center gap-4">
