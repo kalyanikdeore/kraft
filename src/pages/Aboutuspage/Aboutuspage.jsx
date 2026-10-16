@@ -100,7 +100,7 @@ const AboutPage = () => {
                     Internship Program
                   </h4>
                   <p className="text-gray-600 text-sm mt-2 leading-6">
-                    Live projects, mentorship and internship certificates.
+                    Live sessions,  internship certificates.
                   </p>
                 </div>
 
