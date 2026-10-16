@@ -7,6 +7,7 @@ import {
   FiArrowRight,
 } from "react-icons/fi";
 import { FiCheckCircle } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const services = [
   {
@@ -248,23 +249,21 @@ We provide industry-oriented internship programs, live training sessions, and ha
         </p>
 
         <div className="mt-8 flex flex-wrap justify-center gap-4">
-
+{/* 
           <a
             href="#services"
             className="inline-flex items-center gap-2 bg-[#63a8f2] hover:bg-white text-[#132948] px-6 py-3 rounded-xl text-sm font-bold shadow-lg transition-all duration-300 hover:-translate-y-1"
           >
             Start Your Project
             <FiArrowRight />
-          </a>
-
-          <a
-            href="mailto:info@example.com"
-            className="inline-flex items-center gap-2 border border-white/50 bg-white/10 hover:bg-white hover:text-[#132948] text-white px-6 py-3 rounded-xl text-sm font-bold backdrop-blur-sm transition-all duration-300"
-          >
-            Contact Us
-            <FiArrowRight />
-          </a>
-
+          </a> */}
+<Link
+  to="/contact"
+  className="inline-flex items-center gap-2 border border-white/50 bg-white/10 hover:bg-white hover:text-[#132948] text-white px-6 py-3 rounded-xl text-sm font-bold backdrop-blur-sm transition-all duration-300"
+>
+  Contact Us
+  <FiArrowRight />
+</Link>
         </div>
 
       </div>

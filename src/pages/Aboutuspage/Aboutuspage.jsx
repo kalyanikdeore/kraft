@@ -11,8 +11,10 @@ import {
   FiEye,
   FiUsers,
 } from "react-icons/fi";
+import { useNavigate } from "react-router-dom";
 
 const AboutPage = () => {
+  const navigate = useNavigate();
   return (
     <div className="bg-white overflow-hidden">
 
@@ -29,7 +31,7 @@ const AboutPage = () => {
       <span className="text-[#63a8f2]"> Our Company </span>
     </h1>
 
-    <p className="text-gray-300 text-sm md:text-base max-w-2xl leading-7">
+    <p className="text-gray-300 text-sm md:text-base max-w-3xl leading-7">
 We help students turn their technical knowledge into practical skills through industry-oriented internships, live training sessions, and hands-on projects. Our goal is to prepare aspiring developers for real-world challenges, build their confidence, and help them take the next step toward a successful career in the IT industry.    </p>
 
     {/* <a
@@ -310,13 +312,15 @@ We help students turn their technical knowledge into practical skills through in
              Start your career with practical training, live project experience, and expert guidance. Build your skills, strengthen your portfolio, and get ready for real-world opportunities in the IT industry.
               </p>
 
-              <a
-                href="#about-company"
-                className="mt-8 inline-flex items-center justify-center gap-3 bg-[#63a8f2] hover:bg-white text-[#132948] px-7 py-3.5 rounded-xl text-sm font-bold shadow-lg transition-all duration-300 hover:-translate-y-1"
-              >
-                Apply Internship
-                <FiArrowRight />
-              </a>
+
+        <button
+          onClick={() => navigate("/internship")}
+          className="mt-8 inline-flex items-center justify-center gap-3 bg-[#63a8f2] hover:bg-white text-[#132948] px-7 py-3.5 rounded-xl text-sm font-bold shadow-lg transition-all duration-300 hover:-translate-y-1"
+        >
+          Apply Internship
+          <FiArrowRight />
+        </button>
+
             </div>
           </div>
         </div>
