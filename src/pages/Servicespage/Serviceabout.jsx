@@ -40,12 +40,11 @@ const ServicesPage = () => {
 
     <h1 className="text-3xl md:text-4xl font-bold mb-4">
       Our Services
-      <span className="text-[#63a8f2]"> Built for Your Success</span>
+      <span className="text-[#63a8f2]">  Build Skills for Your Future </span>
     </h1>
 
     <p className="text-gray-300 text-sm md:text-base max-w-2xl leading-7">
-      We build modern websites, mobile apps and business software
-      that help businesses grow and succeed.
+     Learn through live training, practical projects, and industry-focused internships to become job-ready.
     </p>
 
     <a
@@ -247,7 +246,7 @@ const ServicesPage = () => {
         </h2>
 
         <p className="mt-5 max-w-2xl mx-auto text-blue-100 text-sm md:text-base leading-7">
-          We create modern websites, custom software, mobile applications,
+          We create modern websites, custom software, 
           and internship programs that help businesses and students
           achieve success.
         </p>

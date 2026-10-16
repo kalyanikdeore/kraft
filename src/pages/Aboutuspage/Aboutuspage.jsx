@@ -30,8 +30,7 @@ const AboutPage = () => {
     </h1>
 
     <p className="text-gray-300 text-sm md:text-base max-w-2xl leading-7">
-     We build websites, mobile apps and provide industry-oriented internships that help students become job-ready developers.
-    </p>
+We help students turn their technical knowledge into practical skills through industry-oriented internships, live training sessions, and hands-on projects. Our goal is to prepare aspiring developers for real-world challenges, build their confidence, and help them take the next step toward a successful career in the IT industry.    </p>
 
     {/* <a
       href="#services"
@@ -308,8 +307,7 @@ const AboutPage = () => {
               </h2>
 
               <p className="mt-5 text-blue-100 text-sm md:text-base leading-7 max-w-2xl mx-auto">
-                Join our internship program and gain real-world experience with
-                live projects, expert mentorship, and industry-ready skills.
+             Start your career with practical training, live project experience, and expert guidance. Build your skills, strengthen your portfolio, and get ready for real-world opportunities in the IT industry.
               </p>
 
               <a
