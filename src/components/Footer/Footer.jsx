@@ -164,7 +164,7 @@ const Footer = () => {
               </a>
 
               {/* WhatsApp Card */}
-              <a
+              {/* <a
                 href="https://wa.me/917263098279"
                 target="_blank"
                 rel="noreferrer"
@@ -184,7 +184,7 @@ const Footer = () => {
                 </span>
 
                 <FaArrowRight className="ml-auto text-xs text-slate-500 transition group-hover:translate-x-1 group-hover:text-green-400" />
-              </a>
+              </a> */}
 
               {/* Location */}
               <div className="flex items-center gap-3 px-1 pt-1">
